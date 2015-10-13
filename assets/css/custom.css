@@ -1,3 +1,4 @@
+/* GLOBAL */
 /* Navigation */
 .navbar {
   margin-bottom: 0px; }
@@ -5,5 +6,22 @@
 /* Footer */
 footer.jumbotron {
   margin-bottom: 0px; }
+
+/* PRESS */
+.press {
+  /* Marketing */
+  /* Navigation */ }
+  .press .jumbotron {
+    padding-bottom: 10px;
+    margin-bottom: 0px; }
+  .press nav.press {
+    min-height: 50px;
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    background-color: #eee; }
+    .press nav.press ul.nav {
+      padding: 8px 0; }
 
 /*# sourceMappingURL=custom.css.map */
