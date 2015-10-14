@@ -65,4 +65,12 @@ footer.jumbotron {
 .title .isbn {
   margin: 20px 0px; }
 
+/* Item/Object Page */
+.item .description {
+  margin-top: 30px; }
+.item .download {
+  margin-top: 20px; }
+.item .data {
+  padding-bottom: 45px; }
+
 /*# sourceMappingURL=custom.css.map */

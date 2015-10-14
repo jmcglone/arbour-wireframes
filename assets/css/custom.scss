@@ -104,11 +104,24 @@ footer.jumbotron {
       margin-right: 10px;
     }
 
-
   }
-
   .isbn {
     margin: 20px 0px;
+  }
+}
+
+/* Item/Object Page */
+.item {
+  .description {
+    margin-top: 30px;
+  }
+
+  .download {
+    margin-top: 20px;
+  }
+
+  .data {
+    padding-bottom: 45px;
   }
 
 }
