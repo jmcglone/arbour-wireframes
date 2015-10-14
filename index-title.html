@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/favicon.ico">
 
-    <title>Arbour [Wireframes]</title>
+    <title>Platform Brand [Wireframes]</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
 
-  <body class="press">
+  <body class="press title">
       <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
           <div class="navbar-header">
@@ -34,7 +34,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Arbour</a>
+            <a class="navbar-brand" href="#">Platform Brand</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -42,7 +42,7 @@
             </ul>
 
           <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search Arbour">
+            <input type="text" class="form-control" placeholder="Search Platform">
           </form>
           </div><!--/.navbar-collapse -->
         </div>
@@ -51,43 +51,56 @@
       <!-- Main jumbotron for a primary heading image -->
       <div class="jumbotron">
         <div class="container">
-          <a class="pressbrand pull-left" href="#"><img alt="Brand" class="img-thumbnail" src="holder.js/120x120"></a>
+          <a class="pressbrand pull-left" href="#"><img alt="Brand" class="img-thumbnail" src="holder.js/75x75"></a>
           <h1>University of Minnesota Press</h1>
-          <p>This is a template for a simple University Press landing page. It includes a large callout called a jumbotron and a grid below for recently added supplemental content or book titles. Use it as a starting point to create something more unique.</p>
           <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
         </div>
       </div>
       <nav class="press">
         <div class="container">
           <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Browse</a></li>
+            <li role="presentation"><a href="#">Home</a></li>
+            <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Browse <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li role="presentation"><a href="#">Browse titles</a></li>
+                <li role="presentation"><a href="#">Browse supplemental materials</a></li>
+              </ul>
+            </li>
             <li role="presentation"><a href="#">About</a></li>
           </ul>
+          <form class="pull-right search">
+            <input type="text" class="form-control" placeholder="Search Press">
+          </form>
         </div>
       </nav>
 
       <div class="container">
+        <div class="row breadcrumbs">
+          <div class="col-sm-12">
+            <ol class="breadcrumb">
+              <li><a href="index-press.html">Home</a></li>
+              <li>Book Title</li>
+            </ol>
+          </div>
+        </div>
+
         <div class="row titles">
           <div class="col-sm-3">
-            <img data-src="holder.js/120x290" src="holder.js/173x260" class="img-thumbnail img-responsive">
+            <img data-src="holder.js/270x406" src="holder.js/270x406" class="img-thumbnail img-responsive">
+          </div>
+          <div class="col-sm-9">
             <h2>Book Title</h2>
             <h3>Firstname Lastname</h3>
-          </div>
-          <div class="col-sm-3">
-              <img data-src="holder.js/120x290" src="holder.js/173x260" class="img-thumbnail img-responsive">
-              <h2>Book Title</h2>
-              <h3>Firstname Lastname</h3>
-          </div>
-          <div class="col-sm-3">
-              <img data-src="holder.js/120x290" src="holder.js/173x260" class="img-thumbnail img-responsive">
-              <h2>Book Title</h2>
-              <h3>Firstname Lastname</h3>
-          </div>
-          <div class="col-sm-3">
-              <img data-src="holder.js/120x290" src="holder.js/173x260" class="img-thumbnail img-responsive">
-              <h2>Book Title</h2>
-              <h3>Firstname Lastname</h3>
+            <div class="btn-toolbar" role="toolbar" aria-label="">
+              <div class="btn-group" role="group" aria-label="">
+                <button type="button" class="btn btn-default">Buy Book</button>
+              </div>
+              <div class="btn-group" role="group" aria-label="">
+                <button type="button" class="btn btn-default">View Supplemental Materials</button>
+              </div>
+            </div>
+            <p class="isbn">ISBN: 012-3-45678-901-0</p>
+            <p class="description">This is where a book description is placed, that could also include an introduction to the supplemental materials that are a part of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
           </div>
         </div>
 
@@ -95,16 +108,17 @@
 
         <div class="items">
           <div class="row">
+            <div class="col-sm-9">
+            <h2 class="section-head">Supplemental Materials</h2>
+            </div>
             <div class="col-sm-3 search-widgets pull-right">
               <div id="sort-dropdown" class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sort by title <span class="caret"></span>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sort by chapter <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#">media type</a></li>
                   <li><a href="#">year (new to old)</a></li>
                   <li><a href="#">year (old to new)</a></li>
-                  <li><a href="#">author</a></li>
-                  <li><a href="#">title</a></li>
                 </ul>
               </div>
 

@@ -6,14 +6,21 @@
 /* Footer */
 footer.jumbotron {
   margin-bottom: 0px; }
+  footer.jumbotron p {
+    font-size: 16px; }
 
 /* PRESS */
 .press {
   /* Marketing */
-  /* Navigation */ }
+  /* Navigation */
+  /* Title and Item Browse */ }
   .press .jumbotron {
     padding-bottom: 10px;
     margin-bottom: 0px; }
+  .press h1 {
+    margin-top: 0px; }
+  .press .pressbrand img {
+    margin: 0px 20px 20px 0px; }
   .press nav.press {
     min-height: 50px;
     position: relative;
@@ -22,6 +29,40 @@ footer.jumbotron {
     border-top: 1px solid #e7e7e7;
     background-color: #eee; }
     .press nav.press ul.nav {
-      padding: 8px 0; }
+      padding: 8px 0;
+      float: left; }
+    .press nav.press form.search {
+      padding: 11px 0; }
+  .press h2.section-head {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px; }
+  .press .titles .row, .press .items .row {
+    margin-bottom: 30px; }
+  .press .titles h2, .press .items h2 {
+    font-size: 24px; }
+  .press .titles h3, .press .items h3 {
+    font-size: 18px; }
+  .press .titles h2.section-head, .press .items h2.section-head {
+    font-size: 24px; }
+  .press .items h2 {
+    font-size: 18px; }
+
+/* Title/Product Page */
+.title .jumbotron h1, .title .jumbotron .h1 {
+  font-size: 36px; }
+.title .jumbotron {
+  padding-top: 30px;
+  padding-bottom: 20px; }
+.title .pressbrand img {
+  margin-bottom: 0px; }
+.title .titles h2 {
+  font-size: 30px; }
+.title .btn-toolbar {
+  margin: 25px 0px 10px -5px; }
+  .title .btn-toolbar .btn-group {
+    margin-right: 10px; }
+.title .isbn {
+  margin: 20px 0px; }
 
 /*# sourceMappingURL=custom.css.map */
