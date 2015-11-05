@@ -7,15 +7,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="../../assets/favicon.ico">
 
     <title>Platform Brand [Wireframes]</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="assets/css/jumbotron.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="../../assets/css/jumbotron.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,7 +34,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Platform Brand</a>
+            <a class="navbar-brand" href="../../index.html">Platform Brand</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -59,11 +59,11 @@
       <nav class="press">
         <div class="container">
           <ul class="nav nav-pills">
-            <li role="presentation"><a href="#">Home</a></li>
+            <li role="presentation"><a href="../index.html">Home</a></li>
             <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Browse <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li role="presentation"><a href="#">Browse titles</a></li>
-                <li role="presentation"><a href="#">Browse supplemental materials</a></li>
+                <li role="presentation"><a href="#">Browse books</a></li>
+                <li role="presentation"><a href="#">Browse book materials</a></li>
               </ul>
             </li>
             <li role="presentation"><a href="#">About</a></li>
@@ -78,7 +78,7 @@
         <div class="row breadcrumbs">
           <div class="col-sm-12">
             <ol class="breadcrumb">
-              <li><a href="index-press.html">Home</a></li>
+              <li><a href="../index.html">Home</a></li>
               <li>Book Title</li>
             </ol>
           </div>
@@ -96,7 +96,7 @@
                 <button type="button" class="btn btn-default">Buy Book</button>
               </div>
               <div class="btn-group" role="group" aria-label="">
-                <button type="button" class="btn btn-default">View Supplemental Materials</button>
+                <button type="button" class="btn btn-default">View Materials</button>
               </div>
             </div>
             <p class="isbn">ISBN: 012-3-45678-901-0</p>
@@ -108,9 +108,6 @@
 
         <div class="items">
           <div class="row">
-            <div class="col-sm-9">
-            <h2 class="section-head">Supplemental Materials</h2>
-            </div>
             <div class="col-sm-3 search-widgets pull-right">
               <div id="sort-dropdown" class="btn-group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sort by chapter <span class="caret"></span>
@@ -143,8 +140,12 @@
                   <h4 class="panel-title">By Chapter</h4>
                 </div>
                 <div class="panel-body">
-                  <ul>
-                    <li><a href="#"></a>
+                  <ul class="list-unstyled">
+                    <li><a href="index-browse.html">Chapter 1</a></li>
+                    <li><a href="#">Chapter 2</a></li>
+                    <li><a href="#">Chapter 3</a></li>
+                    <li><a href="#">Chapter 4</a></li>
+                    <li><a href="#">Chapter 5</a></li>
                   </ul>
                 </div>
               </div>
@@ -153,7 +154,13 @@
                   <h4 class="panel-title">By Keyword</h4>
                 </div>
                 <div class="panel-body">
-                  Panel content
+                  <ul class="list-unstyled">
+                    <li><a href="#">Keyword 1</a></li>
+                    <li><a href="#">Keyword 2</a></li>
+                    <li><a href="#">Keyword 3</a></li>
+                    <li><a href="#">Keyword 4</a></li>
+                    <li><a href="#">Keyword 5</a></li>
+                  </ul>
                 </div>
               </div>
               <div class="panel panel-default">
@@ -161,15 +168,26 @@
                   <h4 class="panel-title">By Format</h4>
                 </div>
                 <div class="panel-body">
-                  Panel content
+                  <ul class="list-unstyled">
+                    <li><a href="#">Image</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Dataset</a></li>
+                  </ul>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title">By Date</h4>
+                  <h4 class="panel-title">By Year</h4>
                 </div>
                 <div class="panel-body">
-                  Panel content
+                  <ul class="list-unstyled">
+                    <li><a href="#">1957</a></li>
+                    <li><a href="#">1958</a></li>
+                    <li><a href="#">1960</a></li>
+                    <li><a href="#">1961</a></li>
+                    <li><a href="#">1962</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -178,15 +196,15 @@
               <div class="row">
                 <div class="col-sm-4">
                   <img data-src="holder.js/120x120" src="holder.js/120x120" class="img-thumbnail img-responsive">
-                  <h2>Object Title</h2>
+                  <h2><a href="item/image.html">Image Object</a></h2>
                 </div>
                 <div class="col-sm-4">
                   <img data-src="holder.js/120x120" src="holder.js/120x120" class="img-thumbnail img-responsive">
-                  <h2>Object Title</h2>
+                  <h2><a href="item/audio.html">Audio Object</a></h2>
                 </div>
                 <div class="col-sm-4">
                   <img data-src="holder.js/120x120" src="holder.js/120x120" class="img-thumbnail img-responsive">
-                  <h2>Object Title</h2>
+                  <h2><a href="item/video.html">Video Object</a></h2>
                 </div>
               </div>
               <div class="row">
@@ -266,7 +284,7 @@
          ================================================== -->
          <!-- Placed at the end of the document so the pages load faster -->
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-         <script src="holder.js"></script>
-         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+         <script src="../../holder.js"></script>
+         <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
