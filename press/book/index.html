@@ -67,12 +67,13 @@ selector: press title
 
         <div class="items">
           <div class="row">
-            <div class="col-sm-3 search-widgets pull-right">
+            <div class="col-sm-4 search-widgets pull-right">
               <div id="sort-dropdown" class="btn-group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sort by chapter <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">media type</a></li>
+		  <li><a href="#">keyword</a></li>
+		  <li><a href="#">format</a></li>
                   <li><a href="#">year (new to old)</a></li>
                   <li><a href="#">year (old to new)</a></li>
                 </ul>
@@ -86,7 +87,21 @@ selector: press title
                 <li><a href="#">50</span></a></li>
                 <li><a href="#">100</span></a></li>
                 </ul>
-              </div>
+	</div>
+
+	<div id="display-toggle" class="btn-group">
+		<button type="button" class="btn btn-default" aria-label="Gallery">
+			<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+		</button>
+		<button type="button" class="btn btn-default" aria-label="List with Thumbnails">
+			<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+		</button>
+		<button type="button" class="btn btn-default" aria-label="List with Text">
+			<span class="button" class="btn btn-defaul" aria-hidden="true"></span>
+		</button>
+	</div>
+
+	</div>
 
             </div><!-- search-widgets -->
           </div><!-- row -->
