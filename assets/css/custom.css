@@ -10,29 +10,31 @@
 .container {
   margin-top: 30px; }
 
-/* Footer */
-footer.jumbotron {
-  margin-bottom: 0px;
-  background-color: #000;
-  color: #fff; }
-  footer.jumbotron p {
-    font-size: 16px; }
-
 /* PLATFORM */
-.platform .jumbotron {
-  padding-bottom: 50px;
-  margin-bottom: 20px;
-  height: 350px; }
-  .platform .jumbotron h1 {
-    padding-top: 100px; }
-.platform h1 {
-  margin-top: 0px; }
-.platform .titles h2, .platform .presses h2 {
-  font-size: 24px; }
-.platform .titles h3, .platform .presses h3 {
-  font-size: 18px; }
-.platform .titles h2.section-head, .platform .presses h2.section-head {
-  font-size: 24px; }
+.platform {
+  /* Footer */ }
+  .platform .jumbotron {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    height: 350px; }
+    .platform .jumbotron h1 {
+      padding-top: 100px; }
+  .platform h1 {
+    margin-top: 0px; }
+  .platform .titles h2, .platform .presses h2 {
+    font-size: 24px; }
+  .platform .titles h3, .platform .presses h3 {
+    font-size: 18px; }
+  .platform .titles h2.section-head, .platform .presses h2.section-head {
+    font-size: 24px; }
+  .platform footer {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #000;
+    color: #fff; }
+    .platform footer p {
+      font-size: 16px; }
 
 /* PRESS */
 .press {
@@ -111,5 +113,17 @@ footer.jumbotron {
   min-height: 30em;
   max-height: 30em;
   overflow-y: scroll; }
+.item footer.press {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #111;
+  color: #fff; }
+  .item footer.press .platform {
+    background-color: #1A1A1A;
+    color: #e5e5e5; }
+  .item footer.press .copyright {
+    background-color: #000; }
+    .item footer.press .copyright p {
+      font-size: 16px; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -12,15 +12,6 @@
   margin-top: 30px;
 }
 
-/* Footer */
-footer.jumbotron {
-  margin-bottom: 0px;
-  background-color: #000;
-  color: #fff;
-  p {
-      font-size: 16px;
-  }
-}
 
 /* PLATFORM */
 .platform {
@@ -50,6 +41,19 @@ footer.jumbotron {
       }
       h2.section-head {
         font-size: 24px;
+      }
+    }
+
+    /* Footer */
+    footer {
+      margin-bottom: 0px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #000;
+      color: #fff;
+
+      p {
+          font-size: 16px;
       }
     }
 }
@@ -190,6 +194,27 @@ footer.jumbotron {
     min-height: 30em;
     max-height: 30em;
     overflow-y: scroll;
+  }
+
+  footer.press {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #111;
+      color: #fff;
+
+      .platform {
+        background-color: #1A1A1A;
+        color: #e5e5e5;
+      }
+
+      .copyright {
+          background-color: #000;
+
+          p {
+            font-size: 16px;
+          }
+      }
+
   }
 
 }
