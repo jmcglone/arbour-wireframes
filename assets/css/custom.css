@@ -119,16 +119,15 @@ footer.press {
   color: #fff; }
   footer.press .col-wrap {
     overflow: hidden; }
+  footer.press .col {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px; }
   footer.press .social, footer.press .footer-nav {
     padding-top: 30px;
-    background-color: #171717;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px; }
+    background-color: #171717; }
   footer.press .platform {
     padding-top: 30px;
-    color: #BABABA;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px; }
+    color: #BABABA; }
   footer.press .copyright {
     background-color: #000;
     padding-bottom: 20px; }
