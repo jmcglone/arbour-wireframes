@@ -113,17 +113,18 @@
   min-height: 30em;
   max-height: 30em;
   overflow-y: scroll; }
-.item footer.press {
+
+footer.press {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #111;
   color: #fff; }
-  .item footer.press .platform {
+  footer.press .platform {
     background-color: #1A1A1A;
     color: #e5e5e5; }
-  .item footer.press .copyright {
+  footer.press .copyright {
     background-color: #000; }
-    .item footer.press .copyright p {
+    footer.press .copyright p {
       font-size: 16px; }
 
 /*# sourceMappingURL=custom.css.map */

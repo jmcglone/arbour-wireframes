@@ -196,25 +196,25 @@
     overflow-y: scroll;
   }
 
-  footer.press {
-      padding-top: 30px;
-      padding-bottom: 20px;
-      background-color: #111;
-      color: #fff;
+}
 
-      .platform {
-        background-color: #1A1A1A;
-        color: #e5e5e5;
-      }
+footer.press {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #111;
+    color: #fff;
 
-      .copyright {
-          background-color: #000;
+    .platform {
+      background-color: #1A1A1A;
+      color: #e5e5e5;
+    }
 
-          p {
-            font-size: 16px;
-          }
-      }
+    .copyright {
+        background-color: #000;
 
-  }
+        p {
+          font-size: 16px;
+        }
+    }
 
 }
