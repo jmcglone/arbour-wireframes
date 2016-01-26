@@ -122,6 +122,8 @@ footer.press {
   footer.press .col {
     margin-bottom: -99999px;
     padding-bottom: 99999px; }
+  footer.press .social {
+    padding-left: 30px; }
   footer.press .social, footer.press .footer-nav {
     padding-top: 30px;
     background-color: #171717; }
