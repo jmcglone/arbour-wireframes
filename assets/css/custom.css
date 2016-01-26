@@ -117,13 +117,18 @@
 footer.press {
   background-color: #262626;
   color: #fff; }
+  footer.press .col-wrap {
+    overflow: hidden; }
   footer.press .social, footer.press .footer-nav {
     padding-top: 30px;
-    background-color: #171717; }
+    background-color: #171717;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px; }
   footer.press .platform {
     padding-top: 30px;
-    background-color: #1A1A1A;
-    color: #BABABA; }
+    color: #BABABA;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px; }
   footer.press .copyright {
     background-color: #000;
     padding-bottom: 20px; }
