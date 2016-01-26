@@ -1,180 +1,108 @@
 /* GLOBAL */
 /* Navigation */
-/* line 3, custom.scss */
 .navbar {
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
 /* Footer */
-/* line 8, custom.scss */
 footer.jumbotron {
   margin-bottom: 0px;
-}
-/* line 11, custom.scss */
-footer.jumbotron p {
-  font-size: 16px;
-}
+  background-color: #000;
+  color: #fff; }
+  footer.jumbotron p {
+    font-size: 16px; }
 
 /* PLATFORM */
-/* line 19, custom.scss */
 .platform .jumbotron {
   padding-bottom: 50px;
   margin-bottom: 20px;
-  height: 350px;
-}
-/* line 24, custom.scss */
-.platform .jumbotron h1 {
-  padding-top: 100px;
-}
-/* line 30, custom.scss */
+  height: 350px; }
+  .platform .jumbotron h1 {
+    padding-top: 100px; }
 .platform h1 {
-  margin-top: 0px;
-}
-/* line 36, custom.scss */
+  margin-top: 0px; }
 .platform .titles h2, .platform .presses h2 {
-  font-size: 24px;
-}
-/* line 39, custom.scss */
+  font-size: 24px; }
 .platform .titles h3, .platform .presses h3 {
-  font-size: 18px;
-}
-/* line 42, custom.scss */
+  font-size: 18px; }
 .platform .titles h2.section-head, .platform .presses h2.section-head {
-  font-size: 24px;
-}
+  font-size: 24px; }
 
 /* PRESS */
-/* line 49, custom.scss */
 .press {
   /* Marketing */
   /* Navigation */
-  /* Book and Item Browse */
-}
-/* line 52, custom.scss */
-.press .jumbotron {
-  padding-bottom: 10px;
-  margin-bottom: 0px;
-}
-/* line 57, custom.scss */
-.press h1 {
-  margin-top: 0px;
-}
-/* line 61, custom.scss */
-.press .pressbrand img {
-  margin: 0px 20px 20px 0px;
-}
-/* line 66, custom.scss */
-.press nav.press {
-  min-height: 50px;
-  position: relative;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #e7e7e7;
-  border-top: 1px solid #e7e7e7;
-  background-color: #eee;
-}
-/* line 75, custom.scss */
-.press nav.press ul.nav {
-  padding: 8px 0;
-  float: left;
-}
-/* line 80, custom.scss */
-.press nav.press form.search {
-  padding: 11px 0;
-}
-/* line 86, custom.scss */
-.press h2.section-head {
-  font-size: 30px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-/* line 94, custom.scss */
-.press .titles .row, .press .items .row {
-  margin-bottom: 30px;
-}
-/* line 97, custom.scss */
-.press .titles h2, .press .items h2 {
-  font-size: 24px;
-}
-/* line 100, custom.scss */
-.press .titles h3, .press .items h3 {
-  font-size: 18px;
-}
-/* line 103, custom.scss */
-.press .titles h2.section-head, .press .items h2.section-head {
-  font-size: 24px;
-}
-/* line 107, custom.scss */
-.press .items h2 {
-  font-size: 18px;
-}
+  /* Book and Item Browse */ }
+  .press .jumbotron {
+    padding-bottom: 10px;
+    margin-bottom: 0px; }
+  .press h1 {
+    margin-top: 0px; }
+  .press .pressbrand img {
+    margin: 0px 20px 20px 0px; }
+  .press nav.press {
+    min-height: 50px;
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    background-color: #eee; }
+    .press nav.press ul.nav {
+      padding: 8px 0;
+      float: left; }
+    .press nav.press form.search {
+      padding: 11px 0; }
+  .press h2.section-head {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px; }
+  .press .titles .row, .press .items .row {
+    margin-bottom: 30px; }
+  .press .titles h2, .press .items h2 {
+    font-size: 24px; }
+  .press .titles h3, .press .items h3 {
+    font-size: 18px; }
+  .press .titles h2.section-head, .press .items h2.section-head {
+    font-size: 24px; }
+  .press .items h2 {
+    font-size: 18px; }
 
 /* Book/Product Page */
-/* line 115, custom.scss */
 .title .jumbotron h1, .title .jumbotron .h1 {
-  font-size: 36px;
-}
-/* line 119, custom.scss */
+  font-size: 36px; }
 .title .jumbotron {
   padding-top: 30px;
-  padding-bottom: 20px;
-}
-/* line 124, custom.scss */
+  padding-bottom: 20px; }
 .title .pressbrand img {
-  margin-bottom: 0px;
-}
-/* line 128, custom.scss */
+  margin-bottom: 0px; }
 .title .titles h2 {
-  font-size: 30px;
-}
-/* line 132, custom.scss */
+  font-size: 30px; }
 .title .btn-toolbar {
-  margin: 25px 0px 10px -5px;
-}
-/* line 135, custom.scss */
-.title .btn-toolbar .btn-group {
-  margin-right: 10px;
-}
-/* line 140, custom.scss */
+  margin: 25px 0px 10px -5px; }
+  .title .btn-toolbar .btn-group {
+    margin-right: 10px; }
 .title .isbn {
-  margin: 20px 0px;
-}
-/* line 144, custom.scss */
+  margin: 20px 0px; }
 .title .sidebar {
-  margin-top: -30px;
-}
-/* line 147, custom.scss */
-.title .sidebar h3 {
-  margin-top: 0px;
-}
-/* line 153, custom.scss */
+  margin-top: -30px; }
+  .title .sidebar h3 {
+    margin-top: 0px; }
 .title .content {
-  padding-left: 30px;
-}
+  padding-left: 30px; }
 
 /* Item/Object Page */
-/* line 160, custom.scss */
 .item .description {
-  margin-top: 30px;
-}
-/* line 164, custom.scss */
+  margin-top: 30px; }
 .item .download {
-  margin-top: 20px;
-}
-/* line 168, custom.scss */
+  margin-top: 20px; }
 .item .data {
-  padding-bottom: 45px;
-}
-/* line 172, custom.scss */
+  padding-bottom: 45px; }
 .item audio {
-  margin-top: 20px;
-}
-/* line 176, custom.scss */
+  margin-top: 20px; }
 .item video {
-  margin-top: 0px;
-}
-/* line 180, custom.scss */
+  margin-top: 0px; }
 .item .fixed {
   min-height: 30em;
   max-height: 30em;
-  overflow-y: scroll;
-}
+  overflow-y: scroll; }
+
+/*# sourceMappingURL=custom.css.map */
