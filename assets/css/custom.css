@@ -123,6 +123,8 @@
   font-size: 16px; }
 .item .object-navigation .glyphicon {
   top: 2px; }
+.item .external {
+  margin-top: 20px; }
 .item .description {
   margin-top: 30px; }
 .item .download {
