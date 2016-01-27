@@ -119,6 +119,11 @@
   padding-left: 30px; }
 
 /* Item/Object Page */
+.item .object-navigation a {
+  font-weight: bold;
+  font-size: 16px; }
+.item .object-navigation .glyphicon {
+  top: 2px; }
 .item .description {
   margin-top: 30px; }
 .item .download {
