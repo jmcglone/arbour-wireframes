@@ -97,16 +97,16 @@
     margin-top: 0px; }
 
 /* List view of title page */
-.title.list.thumb .content .row {
+.title.list .content .row {
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 30px; }
-  .title.list.thumb .content .row img {
+  .title.list .content .row img {
     margin-bottom: 8px; }
-  .title.list.thumb .content .row h2 {
+  .title.list .content .row h2 {
     margin-top: 5px; }
-  .title.list.thumb .content .row h3 {
+  .title.list .content .row h3 {
     font-size: 16px; }
-  .title.list.thumb .content .row .classification {
+  .title.list .content .row .classification {
     display: block; }
 
 .title.list.text .content .row .classification {
