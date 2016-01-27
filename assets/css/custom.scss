@@ -167,7 +167,7 @@
 }
 
 /* List view of title page */
-.title.list .content {
+.title.list.thumb .content {
 
   .row {
 
@@ -190,6 +190,20 @@
       display: block;
     }
   }
+
+}
+
+.title.list.text .content {
+
+  .row {
+
+    .classification {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+  }
+
 
 }
 

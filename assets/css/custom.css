@@ -97,17 +97,21 @@
     margin-top: 0px; }
 
 /* List view of title page */
-.title.list .content .row {
+.title.list.thumb .content .row {
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 30px; }
-  .title.list .content .row img {
+  .title.list.thumb .content .row img {
     margin-bottom: 8px; }
-  .title.list .content .row h2 {
+  .title.list.thumb .content .row h2 {
     margin-top: 5px; }
-  .title.list .content .row h3 {
+  .title.list.thumb .content .row h3 {
     font-size: 16px; }
-  .title.list .content .row .classification {
+  .title.list.thumb .content .row .classification {
     display: block; }
+
+.title.list.text .content .row .classification {
+  display: inline-block;
+  margin-left: 10px; }
 
 .content {
   padding-left: 30px; }
