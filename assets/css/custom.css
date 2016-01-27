@@ -111,7 +111,9 @@
 
 .title.list.text .content .row .classification {
   display: inline-block;
-  margin-left: 10px; }
+  margin-right: 10px; }
+.title.list.text .content .row h2 {
+  display: inline; }
 
 .content {
   padding-left: 30px; }
