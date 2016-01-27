@@ -95,6 +95,8 @@
   margin-top: -30px; }
   .title .sidebar h3 {
     margin-top: 0px; }
+.title a.external {
+  font-size: 12px; }
 
 /* List view of title page */
 .title.list .content .row {
